@@ -1,0 +1,116 @@
+/* www/styles.css */
+
+/* Importamos la fuente Montserrat desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Estilo general para el body */
+body {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  font-family: 'Montserrat', sans-serif;
+  color: #343a40;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Título principal de la aplicación */
+h2.title, .title {
+  color: #800000;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Título de cada panel (nombre del cliente) */
+h3 {
+  color: #800000;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Personalización del sidebarPanel */
+.sidebar {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Estilos para los wellPanels (paneles de cada cliente) */
+.well {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las filas internas de los paneles */
+.fluidRow {
+  margin-bottom: 15px;
+}
+
+/* Estilos para los párrafos que muestran los campos */
+.well p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Resaltado para los labels de los campos */
+.well strong {
+  color: #800000;
+  font-weight: 600;
+}
+
+/* Estilo para inputs de texto */
+input[type="text"] {
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Estilos para el botón (por ejemplo, el de buscar) */
+.btn, .action-button {
+  background-color: #800000;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover, .action-button:hover {
+  background-color: #B33A3A;
+  color: #ffffff;
+}
+
+/* Aseguramos un buen espaciado interno en las columnas */
+.column {
+  padding: 10px;
+}
+
+/* Opcional: Estilo para mensajes o títulos secundarios */
+h4 {
+  text-align: center;
+  color: #800000;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+
+.modal-header {
+  background-color: #800000;
+  color: #ffffff;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

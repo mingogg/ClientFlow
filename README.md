@@ -2,7 +2,7 @@ This application (currently in development) is built using ShinyApp in R Program
 
 Designed with efficiency AND speed in mind, it streamlines client follow-ups, simplifies data visualization, and minimizes the risk of accidental edits that can occur when multiple users share the same document.
 
-What makes this app truly special is its keyboard-driven user experience (UX), which eliminates the need for a mouse entirely:
+Why This App Stands Out: its keyboard-driven user experience (UX), which eliminates the need for a mouse entirely:
 
 Enter: Quickly search for clients without lifting your hands from the keyboard.
 

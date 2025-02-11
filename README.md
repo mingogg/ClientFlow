@@ -1,5 +1,7 @@
 This application (currently in development) is built using ShinyApp in R Programming and serves as a centralized hub for managing client information.
+
 All data is stored in a single Excel sheet, enabling faster and easier access to critical client details.
+
 Designed with efficiency AND speed in mind, it streamlines client follow-ups, simplifies data visualization, and minimizes the risk of accidental edits that can occur when multiple users share the same document.
 
 Why This App Stands Out
